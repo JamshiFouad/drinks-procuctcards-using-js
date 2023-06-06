@@ -63,4 +63,51 @@ a{
 a:hover{
     border: 1px solid white;
 }
+footer{
+    background-color: rgb(1, 1, 24);
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+h3{
+    color: rgb(103, 100, 100);
+    margin: 25px;
+}
+footer a{
+    font-size: medium;
+}
+footer a:hover{
+    text-decoration: underline;
+    border: none;
+}
+.footerTopContent{
+    display: flex;
+    justify-content: space-around;
+    margin:12px 0;
+    border-bottom: 1px solid rgb(111, 110, 110);;
+    padding-bottom: 30px;
+}
+.footerLeftContent,.footerRightContent{
+    display: flex;
+}
+.about,.help,.consumer,.social{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    padding-left: 20px;
+    border-left: 1px solid rgb(111, 110, 110);
+    margin-right: 25px;
+}
+span{
+    margin-left: 20px;
+    color: white;
+}
 
+p{
+    color: white;
+    line-height: 30px;
+}
+.footerBottomContent{
+    padding: 10px;
+}
