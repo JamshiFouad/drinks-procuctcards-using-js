@@ -7,7 +7,7 @@ header{
     width: 100vw;
     height: 20%;
     display: flex;
-    background-color: rgb(10, 168, 236);
+    background-color: rgb(10, 169, 237);
 }
 #logo-container{
     width:500px;
@@ -46,5 +46,21 @@ img:hover{
 }
 #search:hover,#login:hover{
     border: 2px solid rgb(7, 7, 7);
+}
+nav{
+    width: 100%;
+    padding: 6px;
+    background-color:rgb(120, 209, 248);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    font-weight:500;
+    margin-left: 20px;
+    padding: 6px;
+}
+a:hover{
+    border: 1px solid white;
 }
 
