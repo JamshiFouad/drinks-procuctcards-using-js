@@ -4,21 +4,17 @@
     box-sizing: border-box;
 }
 header{
-    width: 100vw;
     height: 20%;
     display: flex;
     background-color: rgb(10, 169, 237);
 }
-#logo-container{
-    width:500px;
-}
-img{
+#logo-container img{
     width:10%;
-    height: 100%;
+    height:100%;
     border-radius: 5px;
 }
 img:hover{
-    border: 2px solid white;
+    border: 1px solid rgb(250, 249, 249);
 }
 #search-container{
     width:430px;
@@ -38,8 +34,9 @@ img:hover{
     height: 29px;
     width:50px;
     margin-left: 50px;
-    background-color: gray;
-    border: none;
+    background-color: rgb(10, 169, 237);
+
+    border: 1px solid white;
     border-radius: 5px;
     font-weight: 600;
 
@@ -47,10 +44,13 @@ img:hover{
 #search:hover,#login:hover{
     border: 2px solid rgb(7, 7, 7);
 }
+#login:hover{
+    background-color: rgb(63, 63, 81);
+}
 nav{
     width: 100%;
     padding: 6px;
-    background-color:rgb(120, 209, 248);
+    background-color:rgb(42, 143, 186);
 }
 a{
     text-decoration: none;
@@ -63,14 +63,30 @@ a{
 a:hover{
     border: 1px solid white;
 }
+#productCardContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+#productCardContainer img{
+        padding-left: 75px;
+    
+}
+#products{
+    border: 1px solid black;
+    padding:10px;
+    line-height: 25px;
+}
 footer{
-    background-color: rgb(1, 1, 24);
+    background-color: rgb(4, 84, 104);
     display: flex;
     flex-direction: column;
     font-size: small;
 }
 h3{
-    color: rgb(103, 100, 100);
+    color: rgb(63, 35, 35);
     margin: 25px;
 }
 footer a{
@@ -103,7 +119,6 @@ span{
     margin-left: 20px;
     color: white;
 }
-
 p{
     color: white;
     line-height: 30px;
