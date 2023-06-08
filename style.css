@@ -67,8 +67,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-   
+    align-items: center; 
 }
 #productCardContainer img{
         padding-left: 75px;
@@ -76,6 +75,7 @@ a:hover{
 }
 #products{
     border: 1px solid black;
+    border-radius: 5px;
     padding:10px;
     line-height: 25px;
 }
